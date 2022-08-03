@@ -33,7 +33,7 @@ function App() {
     return (
         <div className="App">
             {/*<Button nickName={'GetRequest'} callback={getRequestHandler}/>*/}
-            <Button nickName={'CleanPage'} callback={cleanPage}/>
+            <Button nickName={'CleanPage-1'} callback={cleanPage}/>
             <p></p>
             <ul>
                 {get.map((el) => {
