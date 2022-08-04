@@ -21,7 +21,6 @@ function App() {
             .then(json => setGet(json))
     }
 
-
     const cleanPage = () => {
         setGet([])
     }
